@@ -28,7 +28,7 @@
 }
 
 .btn {
-    background-color:rgba(48, 184, 104, 1);
+    background-color: rgba(48, 184, 104, 1);
     border: none;
     border: 1px solid rgba(0, 0, 0, 1);
     padding: 12.5px 16px;
@@ -40,7 +40,7 @@
 
 .hero-parents {
     height: 100vh;
-    background-image: url("../assets/hero-bg.png"); 
+    background: url(../assets/hero-bg.png), rgba(0, 25, 49, 0.8);
     background-size: cover;
     background-position: center;
 }
@@ -48,19 +48,20 @@
 
 .hero-container {
     height: 100%;
-    /* background: rgba(12, 32, 54, 0.75);  */
+    /* background: rgba(0, 25, 49, 0.8);  */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .container {
-    max-width: 1360px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 154.5px 341px;
 }
+
 .hero-content {
-    max-width: 720px;
+    /* max-width: 1600px; */
     color: rgba(255, 255, 255, 1);
     text-align: center;
     gap: 16;
@@ -68,14 +69,15 @@
 
 .access {
     display: inline-block;
-    background:rgba(255, 255, 255, 1);
-    color: rgba(48, 184, 104, 1); 
+    background: rgba(255, 255, 255, 1);
+    color: rgba(48, 184, 104, 1);
     padding: 6px 14px;
     border-radius: 20px;
     font-size: 14px;
     margin-bottom: 24px;
     justify-content: center;
 }
+
 .hero-content h1 {
     font-size: 56px;
     font-weight: 700;
@@ -93,15 +95,18 @@
     color: rgba(255, 255, 255, 1);
     margin-bottom: 32px;
 }
+
 .hero-buttons {
     display: flex;
     gap: 16px;
     align-items: center;
     justify-content: center
 }
+
 .btn-1 {
     background: rgba(48, 184, 104, 1);
-    color: rgba(255, 255, 255, 1);;
+    color: rgba(255, 255, 255, 1);
+    ;
     padding: 16.5px 16px;
     border-radius: 6px;
     border: none;
@@ -121,3 +126,67 @@
     margin-top: 30px;
 }
 
+#notes {
+    padding: 44px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+#note .note-container {
+    max-width: 1360px;
+
+}
+
+.note-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.section-heading {
+    max-width: 1360px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.section-heading p {
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 44px;
+}
+
+.note-box .note-card {
+    padding: 24px;
+    max-width: 322px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.20);
+    background: rgba(255, 255, 255, 1);
+}
+
+.note-card img {
+    max-width: 60px;
+    background-color: rgba(249, 85, 85, 1);
+    width: 32px;
+    height: 32px;
+    padding: 14.04px 13.96px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+.note-card h3 {
+    font-size: 24px;
+    color: rgba(0, 25, 49, 1);
+    margin-bottom: 16px;
+}
+
+.note-card p {
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    line-height: 20px;
+
+}
