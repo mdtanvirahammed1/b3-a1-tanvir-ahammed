@@ -12,11 +12,13 @@
     padding: 16px 120px;
     width: 139px;
 }
-#web-head{
+
+#web-head {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
+
 .menu {
     display: flex;
     gap: 32px;
@@ -26,11 +28,96 @@
 }
 
 .btn {
-    background-color: #30B868;
+    background-color:rgba(48, 184, 104, 1);
     border: none;
-    border: 1px solid #000000;
+    border: 1px solid rgba(0, 0, 0, 1);
     padding: 12.5px 16px;
     border-radius: 4px;
-    font-size:16px;
+    font-size: 16px;
     cursor: pointer;
 }
+
+
+.hero-parents {
+    height: 100vh;
+    background-image: url("../assets/hero-bg.png"); 
+    background-size: cover;
+    background-position: center;
+}
+
+
+.hero-container {
+    height: 100%;
+    /* background: rgba(12, 32, 54, 0.75);  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1360px;
+    margin: 0 auto;
+    padding: 154.5px 341px;
+}
+.hero-content {
+    max-width: 720px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    gap: 16;
+}
+
+.access {
+    display: inline-block;
+    background:rgba(255, 255, 255, 1);
+    color: rgba(48, 184, 104, 1); 
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 24px;
+    justify-content: center;
+}
+.hero-content h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 84px;
+    margin-bottom: 16px;
+}
+
+.hero-content h1 span {
+    color: rgba(48, 184, 104, 1);
+}
+
+.hero-content p {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 32px;
+}
+.hero-buttons {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center
+}
+.btn-1 {
+    background: rgba(48, 184, 104, 1);
+    color: rgba(255, 255, 255, 1);;
+    padding: 16.5px 16px;
+    border-radius: 6px;
+    border: none;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 30px;
+}
+
+.btn-2 {
+    background: transparent;
+    color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 16px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 30px;
+}
+
