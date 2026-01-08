@@ -29,7 +29,6 @@
 
 .btn {
     background-color: rgba(48, 184, 104, 1);
-    border: none;
     border: 1px solid rgba(0, 0, 0, 1);
     padding: 12.5px 16px;
     border-radius: 4px;
@@ -48,7 +47,6 @@
 
 .hero-container {
     height: 100%;
-    /* background: rgba(0, 25, 49, 0.8);  */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,13 +104,14 @@
 .btn-1 {
     background: rgba(48, 184, 104, 1);
     color: rgba(255, 255, 255, 1);
-    ;
     padding: 16.5px 16px;
     border-radius: 6px;
     border: none;
     font-size: 16px;
     line-height: 19px;
     margin-top: 30px;
+    cursor: pointer;
+
 }
 
 .btn-2 {
@@ -124,6 +123,8 @@
     font-size: 16px;
     line-height: 19px;
     margin-top: 30px;
+    cursor: pointer;
+
 }
 
 #notes {
