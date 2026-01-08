@@ -190,3 +190,79 @@
     line-height: 20px;
 
 }
+
+#second-brain {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 120px;
+
+}
+
+.solution {
+    background-color: rgba(255, 255, 255, 1);
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    gap: 16;
+}
+
+.second-brain-container {
+    display: flex;
+    gap: 40px;
+    max-width: 1360px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.second-brain-images img {
+    max-width: 600px;
+    height: auto;
+    padding-right: 60px;
+    border-radius: 12px;
+}
+
+.solution-heading h3 {
+    color: rgba(70, 145, 101, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.solution-heading h1 {
+    color: rgba(0, 25, 49, 1);
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 58px;
+    margin-bottom: 16px;
+
+}
+
+.solution-heading p {
+    color: rgba(98, 115, 130, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+
+.solution-list li {
+    list-style: none;
+    margin-bottom: 16px;
+}
+
+.solution-list p {
+    width: 700px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 6;
+}
+
+.solution-list img {
+    width: 20px;
+    height: 20px;
+}
