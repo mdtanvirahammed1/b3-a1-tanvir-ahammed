@@ -275,18 +275,18 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    gap: 40px;
+    gap: 40;
     padding: 120px 120px;
     border-radius: 12px;
     background: rgba(247, 246, 242, 1);
 
-   
+
 }
 
 #think.think-container {
     padding: 120px;
     max-width: 1360px;
-} 
+}
 
 #think .think-container p {
     color: rgba(98, 115, 130, 1);
@@ -295,11 +295,53 @@
     font-weight: 400;
     line-height: 20px;
 }
-#think .think-container h2{
-    margin-bottom: 16px;
-}
-#think .think-container .btn{
+
+#think .think-container h2 {
     margin-bottom: 16px;
 }
 
+#think .think-container .btn {
+    margin-bottom: 16px;
+}
 
+footer {
+    background-color: rgba(0, 25, 49, 1);
+    margin-top: 120px;
+    padding: 120px;
+    text-align: center;
+}
+
+footer .footer-container {
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+footer .footer-container .social {
+    text-align: center;
+}
+
+footer .footer-container .social h3 {
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+footer .footer-container .social img {
+    width: 20px;
+    margin: 0 auto;
+}
+
+footer p {
+    color: rgba(250, 250, 250, 1);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 110px;
+    margin-bottom: 30px;
+}
