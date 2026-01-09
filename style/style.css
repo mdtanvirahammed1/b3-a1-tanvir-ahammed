@@ -267,3 +267,39 @@
     width: 20px;
     height: 20px;
 }
+
+#think {
+    max-width: 1360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    padding: 120px 120px;
+    border-radius: 12px;
+    background: rgba(247, 246, 242, 1);
+
+   
+}
+
+#think.think-container {
+    padding: 120px;
+    max-width: 1360px;
+} 
+
+#think .think-container p {
+    color: rgba(98, 115, 130, 1);
+    width: 1280px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+#think .think-container h2{
+    margin-bottom: 16px;
+}
+#think .think-container .btn{
+    margin-bottom: 16px;
+}
+
+
